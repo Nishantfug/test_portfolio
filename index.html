@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #1e293b;
+        }
+        h1 { margin: 0; }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .skills span {
+            display: inline-block;
+            background: #334155;
+            padding: 6px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>John Doe</h1>
+    <p>Backend Developer | FastAPI | Node.js</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            Backend developer with experience in building APIs, microservices,
+            and cloud-based applications.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Inventory System</strong> – Django + PostgreSQL</li>
+            <li><strong>Finance Tracker</strong> – FastAPI + Pandas</li>
+            <li><strong>Realtime Chat</strong> – Node.js + WebSockets</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>Node.js</span>
+            <span>Docker</span>
+            <span>PostgreSQL</span>
+            <span>AWS</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: john@example.com</p>
+        <p>GitHub: <a href="#">github.com/johndoe</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
